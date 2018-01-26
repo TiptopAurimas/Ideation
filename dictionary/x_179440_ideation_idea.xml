@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element audit="true" extends="task" label="Idea" max_length="40" name="x_179440_ideation_idea" sizeclass="1" type="collection">
+        <element label="Benefit" max_length="4000" name="benefit" type="string"/>
+        <element label="Problem" max_length="4000" name="problem" type="string"/>
+        <element label="Rejection reason" max_length="4000" name="rejection_reason" type="string"/>
+        <element label="Solution" max_length="4000" name="solution" type="string"/>
+        <element display="true" label="Title" max_length="100" name="title" type="string"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Reviewers" max_length="1024" name="u_glide_list_1" reference="sys_user" reference_qual="roles=x_179440_ideation.Reviewer^EQ" reference_qual_condition="roles=x_179440_ideation.Reviewer^EQ" type="glide_list"/>
+        <element label="New Journal" max_length="4000" name="u_journal_2" type="journal"/>
+    </element>
+</database>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="task" label="Idea Review" max_length="40" name="x_179440_ideation_idea_review" sizeclass="1" type="collection">
+        <element label="Idea" max_length="32" name="idea" reference="x_179440_ideation_idea" type="reference"/>
+        <element display="true" label="Review" max_length="4000" name="review" type="string"/>
+    </element>
+</database>
